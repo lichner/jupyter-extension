@@ -1,3 +1,6 @@
 jupyter contrib nbextension install --user
 jupyter nbextension enable --py widgetsnbextension
+jupyter labextension install @jupyterlab/git@0.44.0 --minimize=False
 jupyter labextension install @jupyter-widgets/jupyterlab-manager@5.0.11 --minimize=False
+
+
